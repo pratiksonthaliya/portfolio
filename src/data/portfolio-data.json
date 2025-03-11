@@ -1,0 +1,144 @@
+{
+	"personal": {
+		"name": "Pratik Sonthaliya",
+		"firstName": "Pratik",
+		"title": "Backend-Heavy Full Stack Developer",
+		"tagline": "A Person Who Iterates Fast",
+		"photo": "/lovable-uploads/profile.jpg",
+		"description": "Skilled in building scalable applications, optimizing databases, managing cloud infrastructurefor high-performance applications.",
+		"footerDescription": "I'm a passionate software engineer focused on creating elegant solutions with clean, efficient code.\n\n My goal is to build digital experiences that are both beautiful and functional.",
+		"location": "Bengaluru, India",
+		"email": "sonthaliyap@gmail.com",
+		"phone": "+91 748 836 2319",
+		"resumeUrl": "https://drive.google.com/file/d/17Rt1hJg4N1LN0oq9Xg35gXvT-ti6UBcq/view?usp=drivesdk",
+		"socialLinks": {
+			"github": "https://github.com/pratiksonthaliya",
+			"linkedin": "https://linkedin.com/in/pratiksonthaliya",
+			"twitter": "https://twitter.com/SonthaliyaP"
+		}
+	},
+	"journey": {
+		"title": "My Journey",
+		"subtitle": "A look at the professional milestones and growth",
+		"milestones": [
+			{
+				"title": "Software Engineer (SWE)",
+				"company": "Fastenal India",
+				"period": "July 2024 - Present",
+				"description": "Optimized Sybase-to-Oracle data sync, reducing discrepancies by 30%, ensuring seamless cross-database consistency. Automated database backup, cutting manual effort by 50%, with a Java-based CLI tool featuring encryption, compression, and progress tracking."
+			},
+			{
+				"title": "Software Engineer Intern",
+				"company": "Fastenal India",
+				"period": "Jan 2024 - June 2024",
+				"description": "Developed a Full Stack Training Planner Web App, streamlining intern training processes and improving scheduling efficiency by 30%. Enabled manual & Excel-based scheduling, ensuring seamless management of training sessions and resources."
+			}, 
+			{
+				"title": "B. tech in ECE",
+				"company": "National Institute of Technology, Jamshedpur (NITJSR)",
+				"period": "Aug 2020 - June 2024",
+				"description": "Achieved the highest CGPA (8.99 / 10) in my department. Awarded the Sailabala Memorial Topper Award for being the topper of the 2020-2024 ECE batch."
+			}
+		]
+	},
+	"projects": [
+		{
+			"id": 1,
+			"title": "Echo - A Social Media Platform",
+			"description": [
+				"Developed a Twitter-inspired full-stack social platform with features like posting, liking, commenting, bookmarking, and follow/unfollow.",
+				"Implemented Google OAuth for secure authentication & optimized query performance by 30% using Redis caching.",
+				"Integrated Amazon S3 for scalable image storage, ensuring high availability and smooth media uploads."
+			],
+			"techStack": ["Next.js", "Amazon S3", "GraphQL API", "PostgreSQL", "Prisma ORM", "Redis", "React", "Node.js", "Tailwind CSS", "Shadcn UI", "JavaScript", "TypeScript"],
+			"image": "/lovable-uploads/echo2.png",
+			"link": "https://echo-media.vercel.app/",
+			"frontend-github": "https://github.com/pratiksonthaliya/echo-client",
+			"backend-github": "https://github.com/pratiksonthaliya/echo-server",
+			"liveDisabled": false,
+			"codeDisabled": true,
+			"backendCodeDisabled": false,
+			"frontendCodeDisabled": false
+		}, 
+		{
+			"id": 2,
+			"title": "Seek - AI Email Reply Generator",
+			"description": [
+			"Developed an AI-powered email assistant that generates smart, context-aware replies in seconds.",
+			"Integrated Gemini AI API for real-time sentiment analysis and personalized responses.",
+			"Built Chrome & Edge extension, allowing users to generate replies directly from Gmail inbox"
+		],
+			"techStack": ["React", "SpringBoot", "Node.js", "GeminAI API", "Google Chrome Extension", "JavaScript"],
+			"image": "/lovable-uploads/seek2.png",
+			"link": "https://seek-ai-email.vercel.app/",
+			"github": "https://github.com/pratiksonthaliya/AI-Email-Assistant",
+			"liveDisabled": false,
+			"codeDisabled": false
+		}, 
+		{
+			"id": 3,
+			"title": "SECE Leaderboard",
+			"description": [
+			"Built a real-time ranking system for Codeforces contests, tracking 200+ contestants and 15+ contests.",
+			"Used by 150+ students and 50+ SECE members for performance analysis and competitive programming insights.",
+			"Implemented admin controls to allow contest and contestant management, ensuring a smooth leaderboard experience.",
+			"Actively used by college students, fostering a collaborative coding environment and improving performance tracking."
+		],
+			"techStack": ["React", "Node.js", "Express.js", "MongoDB", "Codeforces API", "JavaScript"],
+			"image": "/lovable-uploads/email-gen.png",
+			"link": "https://sece-leaderboard-nitjsr.netlify.app/",
+			"github": "https://github.com/pratiksonthaliya/SECE-Leaderboard",
+			"liveDisabled": false,
+			"codeDisabled": false
+		}
+	],
+	"achievements": [
+		{
+			"title": "Academics",
+			"description": [
+				"Secured the highest CGPA in the Electronics and Communication Engineering (ECE) department.",
+				"Recipient of the prestigious Sailabala Memorial Topper Award for being the topper of the 2020-2024 ECE batch.",
+				"Maintained the top rank in the ECE department for the last five consecutive semesters, showcasing consistent academic excellence."
+			]
+		},
+		{
+			"title": "Coding",
+			"description": [
+				"Ranked among the Top 3000 globally out of 670,000+ coders on **InterviewBit**.",
+				"Achieved the Knight badge on LeetCode, a testament to problem-solving mastery.",
+				"Secured Rank 1281 in LeetCode Biweekly Contest 129 among 25,000+ participants.",
+				"Achieved Rank 1351 in LeetCode Biweekly Contest 138, outperforming 37,000+ global participants."
+			]
+		}
+	],
+	"certifications": [
+		{
+			"title": "AWS Cloud Quest: Cloud Practitioner",
+			"issuer": "Amazon Web Services",
+			"year": "2024",
+			"link": "https://www.credly.com/badges/71d2fe97-65d2-45ac-af72-71824d40186b",
+			"skills": ["AWS", "Cloud Computing"]
+		},
+		{
+			"title": "Udemy Labs: The Complete Devops Bootcamp",
+			"issuer": "KodeKloud",
+			"year": "2024",
+			"link": "https://learn.kodekloud.com/certificate/2DF185F10CDE-2DF875EC13BC-2DF17FBDFC90",
+			"skills": ["AWS", "Cloud Computing"]
+		},
+		{
+			"title": "Oracle Cloud Infrastructure 2023 Certified Foundations Associate",
+			"issuer": "Oracle",
+			"year": "2024",
+			"link": "https://catalog-education.oracle.com/ords/certview/sharebadge?id=BC38560037EC20CF1F0BAEC66A057D189200B69CDC7F6B586CCBA36C7C202E7D",
+			"skills": ["AWS", "Cloud Computing"]
+		}, 
+		{
+			"title": "Financial Markets by Yale University",
+			"issuer": "Yale University | Coursera",
+			"year": "2025",
+			"link": "https://www.coursera.org/account/accomplishments/verify/MQ60TA211CG6?",
+			"skills": ["AWS", "Cloud Computing"]
+		}
+	]	  
+}
