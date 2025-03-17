@@ -93,6 +93,21 @@ const ProjectsSection = () => {
                           </svg>
                         </a>
                       )}
+                      {(project.extension) && (
+                        <a 
+                          href={project.extension} 
+                          className="inline-flex items-center px-3 sm:px-4 py-2 text-xs sm:text-sm font-medium rounded-lg gap-1 sm:gap-2 whitespace-nowrap btn-primary shadow-lg hover:shadow-xl"
+                          target="_blank" 
+                          rel="noopener noreferrer"
+                        >
+                          <span>Chrome Extension</span>
+                          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+                            <path d="M15 3h6v6"/>
+                            <path d="m10 14 11-11"/>
+                          </svg>
+                        </a>
+                      )}
                       {(project.codeDisabled !== true && project.github) && (
                         <a 
                           href={project.github || '#'} 

@@ -5,16 +5,18 @@
 		"title": "Backend-Heavy Full Stack Developer",
 		"tagline": "A Person Who Iterates Fast",
 		"photo": "/lovable-uploads/profile.jpg",
-		"description": "Skilled in building scalable applications, optimizing databases, managing cloud infrastructurefor high-performance applications.",
-		"footerDescription": "I'm a passionate software engineer focused on creating elegant solutions with clean, efficient code.\n\n My goal is to build digital experiences that are both beautiful and functional.",
+		"description": "Skilled in building backend-heavy scalable applications, optimizing databases, managing cloud infrastructure for high-performance applications.",
+		"footerDescription": "I'm a passionate software engineer focused on creating elegant solutions with clean, efficient code.\n\nMy goal is to build digital experiences that are both beautiful and functional.",
 		"location": "Bengaluru, India",
 		"email": "sonthaliyap@gmail.com",
-		"phone": "+91 748 836 2319",
-		"resumeUrl": "https://drive.google.com/file/d/17Rt1hJg4N1LN0oq9Xg35gXvT-ti6UBcq/view?usp=drivesdk",
+		"phone": "+91 7488362319",
+		"resumeUrl": "https://drive.google.com/file/d/1Knma-GzoS5kkHekWbd7u1zl6pvuagjJF/view?usp=drive_link",
 		"socialLinks": {
 			"github": "https://github.com/pratiksonthaliya",
 			"linkedin": "https://linkedin.com/in/pratiksonthaliya",
-			"twitter": "https://twitter.com/SonthaliyaP"
+			"twitter": "https://twitter.com/SonthaliyaP",
+			"leetcode": "https://leetcode.com/pratiksonthaliya",
+			"interviewbit": "https://www.interviewbit.com/profile/pratiksonthaliya"
 		}
 	},
 	"journey": {
@@ -23,20 +25,20 @@
 		"milestones": [
 			{
 				"title": "Software Engineer (SWE)",
-				"company": "Fastenal India",
+				"company": "Fastenal India Sourcing IT and Procurement Pvt Ltd",
 				"period": "July 2024 - Present",
-				"description": "Optimized Sybase-to-Oracle data sync, reducing discrepancies by 30%, ensuring seamless cross-database consistency. Automated database backup, cutting manual effort by 50%, with a Java-based CLI tool featuring encryption, compression, and progress tracking."
+				"description": "Optimized Sybase-to-Oracle data sync, reducing query execution time by 40% for 1M+ records, ensuring seamless cross-database consistency. Designed a Java-based backup system, handling 500GB+ of structured data, improving data recovery speed by 60% while ensuring high availability through encryption and compression."
 			},
 			{
 				"title": "Software Engineer Intern",
-				"company": "Fastenal India",
+				"company": "Fastenal India Sourcing IT and Procurement Pvt Ltd",
 				"period": "Jan 2024 - June 2024",
-				"description": "Developed a Full Stack Training Planner Web App, streamlining intern training processes and improving scheduling efficiency by 30%. Enabled manual & Excel-based scheduling, ensuring seamless management of training sessions and resources."
+				"description": "Optimized training session management for 100+ employees by building a web-based training planner, enabling both manual and Excel-based scheduling, leading to a 90% increase in operational efficiency. Improved user adoption by designing an intuitive UI, reducing onboarding time by 40% and ensuring seamless navigation for 50+ trainers."
 			}, 
 			{
-				"title": "B. tech in ECE",
+				"title": "B. Tech in Electronics and Communications Engineering",
 				"company": "National Institute of Technology, Jamshedpur (NITJSR)",
-				"period": "Aug 2020 - June 2024",
+				"period": "July 2020 - June 2024",
 				"description": "Achieved the highest CGPA (8.99 / 10) in my department. Awarded the Sailabala Memorial Topper Award for being the topper of the 2020-2024 ECE batch."
 			}
 		]
@@ -46,11 +48,11 @@
 			"id": 1,
 			"title": "Echo - A Social Media Platform",
 			"description": [
-				"Developed a Twitter-inspired full-stack social platform with features like posting, liking, commenting, bookmarking, and follow/unfollow.",
+				"Engineered a full-stack social media platform inspired by Twitter, allowing users to post, like, comment, bookmark, follow/unfollow, and Implemented Google OAuth for secure authentication.",
 				"Implemented Google OAuth for secure authentication & optimized query performance by 30% using Redis caching.",
 				"Integrated Amazon S3 for scalable image storage, ensuring high availability and smooth media uploads."
 			],
-			"techStack": ["Next.js", "Amazon S3", "GraphQL API", "PostgreSQL", "Prisma ORM", "Redis", "React", "Node.js", "Tailwind CSS", "Shadcn UI", "JavaScript", "TypeScript"],
+			"techStack": ["Amazon S3", "Node.js", "GraphQL", "Prisma ORM", "PostgreSQL", "Redis", "Vercel", "Next.js", "JavaScript", "TypeScript", "Tailwind CSS", "Shadcn UI"],
 			"image": "/lovable-uploads/echo2.png",
 			"link": "https://echo-media.vercel.app/",
 			"frontend-github": "https://github.com/pratiksonthaliya/echo-client",
@@ -59,19 +61,20 @@
 			"codeDisabled": true,
 			"backendCodeDisabled": false,
 			"frontendCodeDisabled": false
-		}, 
+		},
 		{
 			"id": 2,
-			"title": "Seek - AI Email Reply Generator",
+			"title": "Seek - AI-Powered Email Assistant",
 			"description": [
-			"Developed an AI-powered email assistant that generates smart, context-aware replies in seconds.",
-			"Integrated Gemini AI API for real-time sentiment analysis and personalized responses.",
-			"Built Chrome & Edge extension, allowing users to generate replies directly from Gmail inbox"
-		],
-			"techStack": ["React", "SpringBoot", "Node.js", "GeminAI API", "Google Chrome Extension", "JavaScript"],
+				"Developed an AI-powered email assistant that generates smart, context-aware replies in seconds.",
+				"Integrated Gemini AI API for real-time sentiment analysis and personalized responses.",
+				"Built Chrome & Edge extension, allowing users to generate replies directly from Gmail inbox"
+			],
+			"techStack": ["React", "Spring Boot", "Node.js", "Gemini AI API", "Google Chrome Extension", "JavaScript", "Docker"],
 			"image": "/lovable-uploads/seek2.png",
 			"link": "https://seek-ai-email.vercel.app/",
 			"github": "https://github.com/pratiksonthaliya/AI-Email-Assistant",
+			"extension": "https://chromewebstore.google.com/detail/hoaekiaeincepmfiipclfdiggfnokmnm?utm_source=item-share-cb",
 			"liveDisabled": false,
 			"codeDisabled": false
 		}, 
@@ -79,11 +82,11 @@
 			"id": 3,
 			"title": "SECE Leaderboard",
 			"description": [
-			"Built a real-time ranking system for Codeforces contests, tracking 200+ contestants and 15+ contests.",
-			"Used by 150+ students and 50+ SECE members for performance analysis and competitive programming insights.",
-			"Implemented admin controls to allow contest and contestant management, ensuring a smooth leaderboard experience.",
-			"Actively used by college students, fostering a collaborative coding environment and improving performance tracking."
-		],
+				"Built a real-time ranking system for Codeforces contests, tracking 200+ contestants and 15+ contests.",
+				"Used by 150+ students and 50+ SECE members for performance analysis and competitive programming insights.",
+				"Implemented admin controls to allow contest and contestant management, ensuring a smooth leaderboard experience.",
+				"Actively used by college students, fostering a collaborative coding environment and improving performance tracking."
+			],
 			"techStack": ["React", "Node.js", "Express.js", "MongoDB", "Codeforces API", "JavaScript"],
 			"image": "/lovable-uploads/email-gen.png",
 			"link": "https://sece-leaderboard-nitjsr.netlify.app/",
@@ -92,6 +95,13 @@
 			"codeDisabled": false
 		}
 	],
+	"technicalSkills": {
+		"languages": ["C/C++", "Java", "JavaScript", "TypeScript", "SQL", "HTML/CSS"],
+		"frameworks": ["React.js", "Node.js", "Express.js", "Next.js", "Spring", "Spring Boot"],
+		"databases": ["MongoDB", "MySQL", "PostgreSQL with Prisma ORM", "Redis"],
+		"APIs": ["REST API", "GraphQL API"],
+		"devopsCloud": ["Linux", "Shell Scripting", "Git/GitHub", "YAML", "Docker", "AWS", "Oracle Cloud Infrastructure (OCI)"]
+	},
 	"achievements": [
 		{
 			"title": "Academics",
@@ -104,8 +114,9 @@
 		{
 			"title": "Coding",
 			"description": [
-				"Ranked among the Top 3000 globally out of 670,000+ coders on **InterviewBit**.",
 				"Achieved the Knight badge on LeetCode, a testament to problem-solving mastery.",
+				"Ranked in Top 5% Coders Globally and also Solved 1000+ coding problems on LeetCode ",
+				"Ranked among the Top 3000 globally out of 670,000+ coders on InterviewBit.",
 				"Secured Rank 1281 in LeetCode Biweekly Contest 129 among 25,000+ participants.",
 				"Achieved Rank 1351 in LeetCode Biweekly Contest 138, outperforming 37,000+ global participants."
 			]
